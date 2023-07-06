@@ -320,7 +320,7 @@ export default function Home() {
           <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
           <div className={styles.description}>Welcome to the DAO!</div>
           <div className={styles.description}>
-            Your CryptoDevs NFT Balance: {nftBalanceOfUser.data.toString()}
+            Your CryptoDevs NFT Balance: {nftBalanceOfUser.data?.toString()}
             <br />
             {daoBalance.data && (
               <>
